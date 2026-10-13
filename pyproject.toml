@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=80,<83"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "integrate-observe"
+version = "0.4.2"
+description = "Cross-generation integration observation for the Zog project"
+requires-python = ">=3.10"
+license = "BSD-3-Clause OR GPL-3.0-only"
+license-files = ["LICENSE", "LICENSES/*.txt", "THIRD-PARTY-NOTICES.md"]
+
+[project.scripts]
+integrate-observe = "zog.integrate_observe.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["zog.integrate_observe"]

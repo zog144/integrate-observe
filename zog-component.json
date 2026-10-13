@@ -1,0 +1,20 @@
+{
+  "schema": 2,
+  "program": "integrate-observe",
+  "python_package": "zog.integrate_observe",
+  "version": "0.4.2",
+  "scripts": {
+    "integrate-observe": "zog.integrate_observe.cli:main"
+  },
+  "component_dependencies": [
+    "build-trace"
+  ],
+  "external_dependencies": [],
+  "package_data": [],
+  "license_notice_paths": [
+    "LICENSE",
+    "LICENSES/BSD-3-Clause.txt",
+    "LICENSES/GPL-3.0-only.txt",
+    "THIRD-PARTY-NOTICES.md"
+  ]
+}
